@@ -28,5 +28,12 @@ RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml
                                 'stringr',\
                                 'testthat',\
                                 'tidyselect',\
-                                'xtable'))" \
-    && R -e "remotes::install_github(c('Rapporteket/rapbase'))"
+                                'xtable',\
+                                'plotrix',\
+                                'shinyjs',\
+                                'rapFigurer',\
+                                'survival',\
+                                'survminer',\
+                                'shinyWidgets',\
+                                'tidyverse'))" \
+    && R -e "remotes::install_github(c('Rapporteket/rapbase', 'Rapporteket/rapFigurer'))"
