@@ -12,6 +12,7 @@ RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml
                                 'covr',\
                                 'dplyr',\
                                 'DT', \
+                                'funnelR', \
                                 'janitor',\
                                 'kableExtra',\
                                 'knitr',\
