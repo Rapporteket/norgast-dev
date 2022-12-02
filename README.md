@@ -7,4 +7,3 @@ Speed up development processes for norgast...
 
 ### Run
 ```docker-compose up```
-
